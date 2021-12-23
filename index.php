@@ -2,40 +2,21 @@
 
     require_once 'config/connect.php';
 
+    echo "<link rel='stylesheet' href='styles.css'>";
 ?>
 
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Olympiads</title>
+    <title>Результаты олимпиады</title>
 </head>
-<style>
-    th, td {
-        padding: 10px;
-    }
 
-    th {
-        background: #606060;
-        color: white;
-    }
-
-    td {
-        background: #b5b5b5;
-    }
-    h1 {
-        text-align: center;
-    }
-    img {
-        margin: 0 auto;
-        display: block;
-    }
-    
-</style>
 <body>
     <img src="https://nspu.ru/images/logo.png" width="150" />
     <h1> Результаты олимпиады по технологии </h1>
-    <table >
+    <div class="container">
+        <table >
         <tr>
             <th>Номер</th>
             <th>Статус</th>
@@ -83,16 +64,16 @@
             $olymp = $olymps[$i];
             ?>
             <tr >
-                <td><?= $i + 1 ?></td>
+                <td id="number"><?= $i + 1 ?></td>
                 <td><?= $olymp[1] ?></td>
                 <td><?= $project_list[$olymp[2]] ?><sup><?= $olymp[2] ?></sup></td>
                 <td><?= $manager_list[$olymp[3]] ?><sup><?= $olymp[3] ?></sup></td>
                 <td><?= $child_list[$olymp[4]] ?><sup><?= $olymp[4] ?></sup></td>
             
-                <td><?= $olymp[5] ?></td>
-                <td><?= $olymp[6] ?></td>
-                <td><?= $olymp[7] ?></td>
-                <td><?= $olymp[8] ?></td>
+                <td id="number"><?= $olymp[5] ?></td>
+                <td id="number"><?= $olymp[6] ?></td>
+                <td id="number"><?= $olymp[7] ?></td>
+                <td id="number"><?= $olymp[8] ?></td>
                 <!-- <td><a href="update.php?id=<?= $olymp[0] ?>">Update</a></td>
                 <td><a style="color: crimson;" href="scripts/delete.php?id=<?= $olymp[0] ?>">Delete</a></td>-->
             </tr>
@@ -103,6 +84,8 @@
         
         ?>
     </table>
+    </div>
+    
     
     
 
