@@ -23,9 +23,9 @@
             <th><a href="theme.php">Проект</a></th>
             <th>Руководитель</th>
             <th>Участник</th>
-            <th>Балл 1</th>
-            <th>Балл 2</th>
-            <th>Балл 3</th>
+            <th>Балл #1</th>
+            <th>Балл #2</th>
+            <th>Балл #3</th>
             <th>Итого</th>
             <!-- <th><a href="theme.php">Theme</a></th> -->
         </tr>
