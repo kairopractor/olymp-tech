@@ -9,12 +9,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Результаты олимпиады</title>
+    <title>Результаты олимпиад</title>
 </head>
 
 <body>
     <img src="https://nspu.ru/images/logo.png" width="150" />
-    <h1> Результаты олимпиады по технологии </h1>
+    <h1> Результаты олимпиад по технологии </h1>
     <div class="container">
         <table >
         <tr>
