@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Olympiads</title>
+    <title>Результаты олимпиады</title>
 </head>
 
 <body>
