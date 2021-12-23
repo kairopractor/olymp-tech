@@ -9,7 +9,7 @@ echo "<link rel='stylesheet' href='styles.css'>";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Themes</title>
+    <title>Список проектов</title>
 </head>
 
 <body>
