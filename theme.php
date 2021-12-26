@@ -55,7 +55,7 @@ echo "<link rel='stylesheet' href='styles.css'>";
     </table>
 </div>
 
-<form action="scripts/create.php" method="post">
+<form action="scripts/create.php" method="post" accept-charset="UTF-8">
     <h3>Add new mentor</h3>
     <label>
         <span>Название проекта</span>
