@@ -1,12 +1,12 @@
 <?php
 
-/*$connect = mysqli_connect(hostname: 'localhost', username: 'root', password: '', database: 'olimp');
+$connect = mysqli_connect(hostname: 'localhost', username: 'root', password: '', database: 'olimp');
 
 if (!$connect) {
     die('Error connect to database!');
-}*/
+}
 
-
+/*
 //Get Heroku ClearDB connection information
 $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 $cleardb_server = $cleardb_url["host"];
@@ -18,3 +18,4 @@ $query_builder = TRUE;
 // Connect to DB
 $connect = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 ?>
+*/
