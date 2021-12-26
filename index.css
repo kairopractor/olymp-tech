@@ -4,7 +4,7 @@ th, td {
 
 th {
     background: #606060;
-    color: white;
+    color: black;
 }
 
 td {
@@ -37,4 +37,14 @@ a {
 a, a: visited
 {
      color: red;
+}
+
+.sort {
+    margin:20px 0px 0px 20px;
+}
+
+.sort span {
+    color:  blue;
+    text-decoration: underline;
+    cursor: pointer;
 }
