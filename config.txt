@@ -1,0 +1,10 @@
+//Вставить в файл с конфигами phpmyadmin
+
+
+
+/* Heroku remote server */
+$i++;
+$cfg["Servers"][$i]["host"] = "eu-cdbr-west-02.cleardb.net"; //provide hostname
+$cfg["Servers"][$i]["user"] = "b7fb5d22eff846"; //user name for your remote server
+$cfg["Servers"][$i]["password"] = "8e2080a5"; //password
+$cfg["Servers"][$i]["auth_type"] = "config"; // keep it as config
