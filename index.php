@@ -15,7 +15,7 @@
 
 <body>
     <img src="https://nspu.ru/images/logo.png" width="150" />
-    <h1> Результаты олимпиад по технологии </h1>
+    <h1> Результаты олимпиад по технологии 9</h1>
     <div >
         <div class="sort">
             Сортировать по: <strong>имени</strong> (<span>от А до Я</span>/<span>от Я до А</span>); <strong>цене</strong> (<span>по возрастанию</span>/<span>по убыванию</span>)
