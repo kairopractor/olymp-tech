@@ -8,7 +8,7 @@ echo "<link rel='stylesheet' href='styles.css'>";
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Список проектов</title>
 </head>
 
