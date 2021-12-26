@@ -10,6 +10,7 @@ echo "<link rel='stylesheet' href='styles.css'>";
 <head>
     <meta charset="utf-8">
     <title>Список проектов</title>
+    <link rel='stylesheet' href='index.css'/>
 </head>
 
 <body>
