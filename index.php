@@ -37,7 +37,7 @@
                     <option value="theme-6.php">Робототехника</option>
 
                 </select>
-               
+               <input name="newThread" type="button" value="Добавить новый проект" onclick="window.location.replace('add-project.php')"/>
                 
             </div>
         </div>

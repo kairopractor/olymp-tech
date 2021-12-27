@@ -56,25 +56,7 @@ echo "<link rel='stylesheet' href='styles.css'>";
     </table>
 </div>
 
-<form action="scripts/create.php" method="post" accept-charset="UTF-8">
-    <h3>Add new mentor</h3>
-    <label>
-        <span>Название проекта</span>
-        <input type="" name="name">
-    </label>
 
-    <label>
-        <span>Ссылка на материал</span>
-        <input type="" name="link">
-    </label>
-
-    <label>
-        <span>Направление</span>
-        <input type="" name="category">
-    </label>
-    
-    <button>Add new olympiad</button>
-</form>
 
 </body>
 </html>
