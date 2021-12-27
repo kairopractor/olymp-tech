@@ -22,7 +22,7 @@
     
     <div class="panel panel-primary">
         <form action="scripts/create.php" method="post" accept-charset="UTF-8">
-            <h3>Add new mentor</h3>
+            <div class="panel-heading">Добавить новый проект</div>
             <label>
                 <span>Название проекта</span>
                 <input type="" name="name">
@@ -38,7 +38,7 @@
                 <input type="" name="category">
             </label>
             
-            <button>Add new olympiad</button>
+            <button>Добавить</button>
         </form>
     </div>
     
